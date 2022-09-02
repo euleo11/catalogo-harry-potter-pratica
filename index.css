@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+background-color: #282a36;
+color: aliceblue;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    font-weight: 700;
+    }
+
+.container {
+text-align: center;
+padding: 20px;
+}
+.page-title {
+    margin: 0 0 5px;
+    color: brown;
+}
+
+.page-subtitle {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.itens {
+display: inline-table;
+margin: 15px 30px;
+}
+
+.itens:hover {
+transform: scale(1.1);
+transition-duration: 0.5s;
+}
+
+.poster{
+border-radius: 8px;
+border: solid #2a8270;
+}
+
+a {
+text-decoration: none;
+}
